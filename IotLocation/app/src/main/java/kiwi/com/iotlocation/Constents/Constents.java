@@ -6,7 +6,7 @@ package kiwi.com.iotlocation.Constents;
  * 文件名：  Constents
  * 创建者：  kiwi
  * 时  间：  2018/3/16 21:23
- * 描  述： TODO
+ * 描  述：  项目所用常量
  */
 
 public class Constents {

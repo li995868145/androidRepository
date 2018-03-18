@@ -8,7 +8,7 @@ import android.util.Log;
  * 文件名：  Logger
  * 创建者：  kiwi
  * 时  间：  2018/3/14 22:18
- * 描  述： TODO
+ * 描  述： 项目日志类
  */
 
 public class Logger {
