@@ -1,0 +1,15 @@
+Executable : D:\android\android-sdk_r24.4.1-windows\android-sdk-windows\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\android\project\androidRepository\IotLocation\app
+-BD:\android\project\androidRepository\IotLocation\app\.externalNativeBuild\cmake\debug\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-19
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\android\project\androidRepository\IotLocation\app\build\intermediates\cmake\debug\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=D:\android\android-sdk_r24.4.1-windows\android-sdk-windows\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\android\android-sdk_r24.4.1-windows\android-sdk-windows\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\android\android-sdk_r24.4.1-windows\android-sdk-windows\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

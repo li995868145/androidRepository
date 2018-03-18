@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/android/project/androidRepository/IotLocation/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\android\\android-sdk_r24.4.1-windows\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\android\\project\\androidRepository\\IotLocation\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\android\\android-sdk_r24.4.1-windows\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\android\\project\\androidRepository\\IotLocation\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=D:/android/android-sdk_r24.4.1-windows/android-sdk-windows/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=D:/android/android-sdk_r24.4.1-windows/android-sdk-windows/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem D:\\android\\android-sdk_r24.4.1-windows\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\android\\android-sdk_r24.4.1-windows\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem D:\\android\\android-sdk_r24.4.1-windows\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/android/android-sdk_r24.4.1-windows/android-sdk-windows/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/android/project/androidRepository/IotLocation/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/android/project/androidRepository/IotLocation/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "D:/android/project/androidRepository/IotLocation/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "1204134649"
+		}
+	},
+	"toolchains" : 
+	{
+		"1204134649" : 
+		{
+			"cCompilerExecutable" : "D:/android/android-sdk_r24.4.1-windows/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android/android-sdk_r24.4.1-windows/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
