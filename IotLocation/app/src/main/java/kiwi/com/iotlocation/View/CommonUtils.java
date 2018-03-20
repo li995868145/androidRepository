@@ -1,6 +1,8 @@
 package kiwi.com.iotlocation.View;
 
 import android.app.Activity;
+import android.content.Context;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -41,6 +43,14 @@ public class CommonUtils {
      */
     public static void cancelFullScreen(Activity activity) {
         activity.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+    }
+
+    /**
+     * 设置全屏无标题
+     */
+    public static void setFullScreenNotitle(AppCompatActivity activity) {
+        activity.getSupportActionBar().hide();
+        activity.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
 
 }

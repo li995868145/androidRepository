@@ -8,19 +8,30 @@
 
 
     <application
+        android:name=".Application.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/noTitle">
+
+        <activity android:name=".UI.SplashActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- 设置界面-->
+        <activity android:name=".UI.SettingActivity" android:screenOrientation="portrait"/>
+
+        <!-- 引导界面 -->
+        <activity android:name=".UI.GuideActivity" android:screenOrientation="portrait"/>
+
+        <!-- 待机界面 -->
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>

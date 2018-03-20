@@ -15,6 +15,10 @@ android {
                 cppFlags ""
             }
         }
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi' , 'x86'//, 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
     }
     buildTypes {
         release {
@@ -28,7 +32,7 @@ android {
         }
     }
 
-    greendao{
+    greendao {
         schemaVersion 1
         targetGenDir 'src/main/java'
     }
@@ -43,6 +47,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation files('libs/iotUtils.jar')
     implementation files('libs/algorithm.jar')
+    //TabLayout
+    compile 'com.android.support:design:26.1.0'
     // okHttp
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
     //greenDao
@@ -64,4 +70,7 @@ dependencies {
     // zxing
     compile 'com.journeyapps:zxing-android-embedded:3.5.0'
     compile 'com.google.zxing:core:3.3.0'
+    //bugly
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
 }
